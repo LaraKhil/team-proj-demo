@@ -1,11 +1,14 @@
 // main
 @import './index';
 
+
+// Стили для файла с примером HTML-фрагмента
+
+@import './base/container';
+
+@import './components/test';
+@import './pages/main/about-us';
+@import './utils/variables';
+
 // components
 
-// sections
-@import './pages/main/hero';
-@import './pages/main/propositions';
-@import './pages/main/about-us';
-@import './pages/main/clients';
-@import './pages/main/location';
